@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="12121" systemVersion="16F73" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" colorMatched="YES" initialViewController="BYZ-38-t0r">
+    <device id="retina4_7" orientation="portrait">
+        <adaptation id="fullscreen"/>
+    </device>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--view1-->
+        <scene sceneID="tne-QT-ifu">
+            <objects>
+                <viewController title="view1" id="BYZ-38-t0r" customClass="ViewController" customModule="CoreMotionTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
+                        <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="8bC-Xf-vdC">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="1" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="XfV-qk-AjR">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <color key="backgroundColor" red="0.42027020985310626" green="0.76899407929437857" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="120"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="XfV-qk-AjR" secondAttribute="leading" constant="20" id="1vk-MX-BRY"/>
+                            <constraint firstItem="XfV-qk-AjR" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="-20" id="BhP-jU-BW4"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="XfV-qk-AjR" secondAttribute="trailing" constant="-20" id="UTL-uB-12E"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="XfV-qk-AjR" secondAttribute="bottom" id="oZz-GI-Ga9"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="369" y="477"/>
+        </scene>
+        <!--view2-->
+        <scene sceneID="yMn-Ke-8E4">
+            <objects>
+                <viewController title="view2" id="OBh-kh-oFQ" customClass="ViewController2" customModule="CoreMotionTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="GCi-a3-siQ"/>
+                        <viewControllerLayoutGuide type="bottom" id="3D3-EK-lx4"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="HdU-6A-4PA">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="2" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="8Pi-sU-Cyp">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <color key="backgroundColor" red="0.29238640985550191" green="1" blue="0.4048543363391246" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="120"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="leadingMargin" secondItem="8Pi-sU-Cyp" secondAttribute="leading" constant="20" id="EfE-6U-xfv"/>
+                            <constraint firstItem="3D3-EK-lx4" firstAttribute="top" secondItem="8Pi-sU-Cyp" secondAttribute="bottom" id="ddQ-e7-RUd"/>
+                            <constraint firstItem="8Pi-sU-Cyp" firstAttribute="top" secondItem="GCi-a3-siQ" secondAttribute="bottom" constant="-20" id="f3D-2p-oHn"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="8Pi-sU-Cyp" secondAttribute="trailing" constant="-20" id="gUO-5P-Gfu"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="VcW-Re-g3x" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1062" y="476"/>
+        </scene>
+        <!--view3-->
+        <scene sceneID="TqW-a4-974">
+            <objects>
+                <viewController title="view3" id="uDk-TQ-aYN" customClass="ViewController3" customModule="CoreMotionTutorial" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="TZL-eP-9I2"/>
+                        <viewControllerLayoutGuide type="bottom" id="CvB-00-aee"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="H0W-ts-dPQ">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="3" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="6Jn-vC-eXg">
+                                <rect key="frame" x="-4" y="0.0" width="383" height="667"/>
+                                <color key="backgroundColor" red="1" green="0.62829218541689236" blue="0.2236278548363474" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <fontDescription key="fontDescription" name="Avenir-Book" family="Avenir" pointSize="120"/>
+                                <color key="textColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                        </subviews>
+                        <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Jn-vC-eXg" secondAttribute="trailing" constant="-20" id="0US-3q-Aqq"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="6Jn-vC-eXg" secondAttribute="trailing" constant="-20" id="5T4-Vc-mU5"/>
+                            <constraint firstItem="6Jn-vC-eXg" firstAttribute="top" secondItem="TZL-eP-9I2" secondAttribute="bottom" constant="-20" id="Iq9-dc-N5g"/>
+                            <constraint firstItem="CvB-00-aee" firstAttribute="top" secondItem="6Jn-vC-eXg" secondAttribute="bottom" id="ffc-hX-oIe"/>
+                            <constraint firstItem="6Jn-vC-eXg" firstAttribute="leading" secondItem="H0W-ts-dPQ" secondAttribute="leadingMargin" constant="-20" id="toC-kN-a8N"/>
+                        </constraints>
+                    </view>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="CQF-BR-YEG" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1742" y="475"/>
+        </scene>
+    </scenes>
+</document>
