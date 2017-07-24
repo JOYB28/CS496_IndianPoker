@@ -39,9 +39,7 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate, MCSessi
     @IBOutlet weak var chooseFirstButton: UIButton!
     @IBOutlet weak var startView: UIView!
     @IBOutlet weak var gameStartButton: UIButton!
-    
-    @IBOutlet weak var gameResult: UILabel!
-    
+        
     @IBOutlet weak var playerView1: UIView!
     @IBOutlet weak var playerView2: UIView!
     @IBOutlet weak var cardView: UIImageView!
@@ -208,7 +206,7 @@ class ViewController: UIViewController, MCBrowserViewControllerDelegate, MCSessi
         var temp = num
         let data = NSData(bytes: &temp, length: MemoryLayout<NSInteger>.size)
         do {
-            try self.session.send(data as Data, toPeers: self.session.connectedPeers, with: MCSessionSendDataMode.unreliable)
+            try self.session.send(data as Data, toPeers: self.session.connectedPeers, with: MCSessionSendDataMode.reliable)
         } catch {
             print("\(error)eeeeeee")
         }
